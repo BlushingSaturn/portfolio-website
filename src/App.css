@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Karla|Inconsolata');
+
+body {
+    --accent-color: #EB5160;
+    --accent-color-lighter: #EE6D7A;
+
+    background-attachment: fixed;
+    background-color: #0D121C;
+    background-image: url(/public/background.jpg);
+    background-size: cover;
+    color: white;
+    font-family: "Inconsolata";
+}
+
+.landing-screen {
+    background-color: rgba(0, 0, 0, 65%);
+    height: 55rem;
+}
+
+.info-container {
+    padding: 20rem 0 0 8rem;
+}
+
+h1 {
+    font-family: "Karla";
+    font-size: 7rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    margin: 2rem 0 0 -1rem;
+}
