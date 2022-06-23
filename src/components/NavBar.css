@@ -2,8 +2,8 @@
     background-color: #1B263B;
     box-shadow: #000 0 0.2rem 1rem;
     display: flex;
-    justify-content: space-around;
-    padding: 0 55rem;
+    justify-content: space-between;
+    padding: 1rem 4rem;
 }
 
 .nav a {
