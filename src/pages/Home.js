@@ -9,6 +9,7 @@ import placeholder4 from '../sliderPhotos/placeholder4.jpeg';
 import NavBar from '../components/NavBar';
 import Button from '../components/Button';
 import Slider from '../components/Slider';
+import Footer from '../components/Footer';
 
 
 const ImageData = [
@@ -47,6 +48,7 @@ function Home() {
                     <Slider slides={ImageData}/>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

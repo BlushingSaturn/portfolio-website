@@ -1,0 +1,25 @@
+.footer {
+    align-items: center;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    justify-content: center;
+}
+
+.socials a {
+    color: white;
+    padding: .25rem;
+}
+
+.socials a:hover {
+    color: var(--accent-color-lighter);
+}
+
+.socials a:active {
+    color: var(--accent-color-lightest);
+}
+
+.copyright {
+    padding-top: 1rem;
+}

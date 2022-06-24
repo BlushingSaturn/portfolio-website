@@ -3,6 +3,9 @@
 body {
     --accent-color: #EB5160;
     --accent-color-lighter: #EE6D7A;
+    --accent-color-lightest: #fd9fa8;
+    --background-color: #1b263b;
+    --background-color-lighter: #2e3f5f;
 
     color: white;
     font-family: "Inconsolata";

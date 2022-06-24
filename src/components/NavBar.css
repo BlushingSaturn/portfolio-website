@@ -1,9 +1,9 @@
 .nav {
-    background-color: #1B263B;
+    background-color: var(--background-color);
     box-shadow: #000 0 0.2rem 1rem;
     display: flex;
-    justify-content: space-between;
-    padding: 1rem 4rem;
+    justify-content: space-around;
+    padding: 0 55rem;
 }
 
 .nav a {
@@ -14,7 +14,7 @@
 }
 
 .nav a:hover {
-    background-color: #2e3f5f;
+    background-color: var(--background-color-lighter);
 }
 
 .nav .active {

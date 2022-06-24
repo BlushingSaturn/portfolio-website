@@ -17,6 +17,11 @@
     border: .2rem solid var(--accent-color-lighter);
 }
 
+.button a:active {
+    background-color: var(--accent-color-lightest);
+    border: .2rem solid var(--accent-color-lightest);
+}
+
 .border a {
     background-color: transparent;
     border: .2rem solid var(--accent-color);
